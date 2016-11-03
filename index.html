@@ -1,0 +1,35 @@
+<!-- Application Structure -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyFirst Crowd</title>
+	<meta charset="utf-8">
+	<!-- Turn our app more beautiful and "responsive", using Pure CSS modules -->
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Include FingerPrinting Script -->
+	<script src="https://cdn.jsdelivr.net/fingerprintjs2/1.4.1/fingerprint2.min.js"></script>
+	<!-- Include our script (this must be the dropbox link to the script, concatened to &raw=1) -->
+	<script src="https://www.dropbox.com/s/0sifut74vfiz44n/script.js?dl=0&raw=1"></script>
+	
+</head>
+<body>
+	<div id="app" style="text-align: center">
+		<!-- Output for the messages -->
+		<h1 id="out">1/5</h1>
+		<!-- Question to the user -->
+	 	<h1 id="question">Which age group represents this person?</h1>
+	 	<!-- Image area, with a default one -->
+		<img height="300"  id="image"/>
+	 	<!-- Hides the buttons, as there is no images at beggining -->
+		<div id="btn_Bar" style="display:none">
+			<button id="btn_1" value="baby" class="button-xlarge pure-button">Baby</button>
+			<button id="btn_2" value="child" class="button-xlarge pure-button">Child</button>
+			<button id="btn_3" value="teenager" class="button-xlarge pure-button">Teenager</button>
+			<button id="btn_4" value="adult" class="button-xlarge pure-button">Adult</button>
+			<button id="btn_5" value="senior" class="button-xlarge pure-button">Senior</button>
+			<button id="btn_6" value="not_person" class="button-xlarge pure-button">It is not a person</button>
+		</div>    		
+  	</div>
+</body>
+</html>
