@@ -106,14 +106,17 @@ function sendContributions(cs){
 	document.getElementById('app').appendChild(a);
 }
 
+https://docs.google.com/forms/d/e/1FAIpQLSdw6yy3boRit50JJIPdMW1LgT4iQ0vJDCj8ECBoypn7mX6aww/viewform?
+entry.1452035552=a&entry.898852186=b&entry.1795283051=c&entry.475732217=d&entry.1037125277=e
+
 //Sends teh contribution to the Database
 function storeContribution(c){
 	//Your Spreadsheet URL;
-	var url = "https://docs.google.com/a/inf.ufes.br/forms/d/e/1FAIpQLSeaRKIWO0jb1QMu4caKIt3jbPN44tc0rfH6l9hwsOlXhv1RHQ";
+	var url = "https://docs.google.com/forms/d/e/1FAIpQLSdw6yy3boRit50JJIPdMW1LgT4iQ0vJDCj8ECBoypn7mX6aww";
 	//The form we send our infromation;
 	var action = 'formResponse';
 	//The field's id extraceted earlier:
-	var fields = ['entry.1758531037','entry.616541030','entry.308269107','entry.1079231095','entry.40720866'];
+	var fields = ['entry.1452035552','entry.898852186','entry.1795283051','entry.475732217','entry.1037125277'];
 	//We construct the URL to the database;
 	var str = url+'/'+action+'?' 	+
 		fields[0]+'='+c.time	+ '&' +
