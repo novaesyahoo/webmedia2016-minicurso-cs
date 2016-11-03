@@ -105,7 +105,7 @@ function sendContributions(cs){
 	a.href = "./index.html";
 	document.getElementById('app').appendChild(a);
 }
-
+ 
 //Sends teh contribution to the Database
 function storeContribution(c){
 	//Your Spreadsheet URL;
