@@ -109,7 +109,7 @@ function sendContributions(cs){
 //Sends teh contribution to the Database
 function storeContribution(c){
 	//Your Spreadsheet URL;
-	var url = "https://docs.google.com/forms/d/e/1FAIpQLSdmsOv8fClwcIBySn-f1xmGO2oHlK-sA_AIvqY7hU-5NrdNww";
+	var url = "https://docs.google.com/a/inf.ufes.br/forms/d/e/1FAIpQLSdmsOv8fClwcIBySn-f1xmGO2oHlK-sA_AIvqY7hU-5NrdNww";
 	//The form we send our infromation;
 	var action = 'formResponse';
 	//The field's id extraceted earlier:
@@ -120,9 +120,7 @@ function storeContribution(c){
 		fields[1]+'='+c.image_url	+ '&' +
 		fields[2]+'='+c.image_class	+ '&' +
 		fields[3]+'='+c.user_id		+ '&' +
-		fields[4]+'='+c.contr_id;
-	console.log(str);
-	
+		fields[4]+'='+c.contr_id;	
 	//We send the form;
 	fetch(str,{mode: 'no-cors'});
 }
