@@ -121,6 +121,8 @@ function storeContribution(c){
 		fields[2]+'='+c.image_class	+ '&' +
 		fields[3]+'='+c.user_id		+ '&' +
 		fields[4]+'='+c.contr_id;
+	console.log(str);
+	
 	//We send the form;
 	fetch(str,{mode: 'no-cors'});
 }
