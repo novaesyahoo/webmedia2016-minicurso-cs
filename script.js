@@ -106,9 +106,6 @@ function sendContributions(cs){
 	document.getElementById('app').appendChild(a);
 }
 
-https://docs.google.com/forms/d/e/1FAIpQLSdw6yy3boRit50JJIPdMW1LgT4iQ0vJDCj8ECBoypn7mX6aww/viewform?
-entry.1452035552=a&entry.898852186=b&entry.1795283051=c&entry.475732217=d&entry.1037125277=e
-
 //Sends teh contribution to the Database
 function storeContribution(c){
 	//Your Spreadsheet URL;
