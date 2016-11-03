@@ -109,11 +109,11 @@ function sendContributions(cs){
 //Sends teh contribution to the Database
 function storeContribution(c){
 	//Your Spreadsheet URL;
-	var url = "https://docs.google.com/a/inf.ufes.br/forms/d/e/1FAIpQLSdmsOv8fClwcIBySn-f1xmGO2oHlK-sA_AIvqY7hU-5NrdNww";
+	var url = "https://docs.google.com/a/inf.ufes.br/forms/d/e/1FAIpQLSeaRKIWO0jb1QMu4caKIt3jbPN44tc0rfH6l9hwsOlXhv1RHQ";
 	//The form we send our infromation;
 	var action = 'formResponse';
 	//The field's id extraceted earlier:
-	var fields = ['entry.413905428','entry.253220136','entry.1242187282','entry.294318778','entry.482353193'];
+	var fields = ['entry.1758531037','entry.616541030','entry.308269107','entry.1079231095','entry.40720866'];
 	//We construct the URL to the database;
 	var str = url+'/'+action+'?' 	+
 		fields[0]+'='+c.time	+ '&' +
