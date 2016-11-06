@@ -1,0 +1,43 @@
+time
+image_url
+image_classification
+user_id
+contr_id
+
+
+Responses
+(Timestamp	time	image_url	image_classification	user_id	contr_id)
+Golden
+(image_url	image_classification)
+Result 
+(image_url	baby	child	teenager	adult	senior	not_person	mode	convergence)
+Graphs
+(group	convergence	prevalence)
+group: [baby
+		child
+		teenager
+		adult
+		senior
+		not_person
+		]
+
+Convergence
+Gráfico de Colunas
+Graphs!A1:B7
+Usar linha 1 como cabeçalhos
+Usar coluna A como rótulos
+
+
+Prevalence
+Gráfico de Pizza
+Graphs!A1:A7, Graphs!C1:C7
+
+
+
+
+
+
+
+
+
+
